@@ -1,0 +1,13 @@
+Algorithme valeur_absolue;
+Var
+	nombre1,nombre2,dif:entiers;
+Debut
+	Afficher "Veuillez tapez deux nombres differents";
+	Saisir nombre1,nombre2;
+	dif:=nombre1-nombre2;
+	Si dif>0 alors
+	Afficher "La valeur absolue de le difference des deux nombres est ",dif;
+	Sinon
+	Afficher "La valeur absolue de le difference des deux nombres est ",-dif;
+	Finsi
+Fin

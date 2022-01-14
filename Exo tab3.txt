@@ -1,0 +1,10 @@
+Algorithme somme;
+var
+	tab(1;10):tableau de type réel;
+	i,somme:réels;
+Debut
+	somme<--0;
+	Pour i-->1 à 10 à pas de 1 faire;
+	somme<--somme+tab[i];
+	Finpour
+Fin

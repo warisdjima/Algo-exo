@@ -1,0 +1,13 @@
+Algorithme plus_grand;
+var
+	A,B:entiers;
+Debut
+	Afficher " Tapez deux nombres";
+	saisir A,B;
+	Si A>B alors
+	Afficher "Le plus grand niombre est",A;
+	Finsi
+	Si A<B alors
+	Afficher "Le plus grand niombre est",B;
+	Finsi
+Fin

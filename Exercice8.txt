@@ -1,0 +1,16 @@
+Algorithme action;
+Var
+	couleur:chaine de caractères;
+Debut
+	Afficher "Veuillez entrer une couleur";
+	Afficher "Les couleurs possibles sont:";
+	Afficher "-Rouge";
+	Afficher "-Orange";
+	Afficher "-Vert";
+	Saisir couleur;
+	Suivant couleur faire;
+	"Rouge": Afficher "S'arrêter";
+	"Orange":Afficher "Ralentir";
+	"Vert":Afficher "Passer";
+	sinon Afficher "incorrect";
+Fin

@@ -1,0 +1,12 @@
+Algorithme message_enfants;
+Var
+	annee:réel;
+CONST
+	ANNEE_ACTU:2022;
+Debut
+	afficher "Tapez votre année de naissance";
+	saisir annee;
+	si 2022-annee < 10;
+	afficher "Vous êtes encore enfant";
+	finsi
+Fin

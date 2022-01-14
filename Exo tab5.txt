@@ -1,0 +1,20 @@
+Algorithme chercher;
+Var
+	taab(1;20):tableau de chaine de caractère;
+	trouve:booleen;
+	i:entiers;
+	nom:chaine de caractère;
+Debut
+	Afficher "Vueillez entrer un nom";
+	Saisir nom;
+	trouve<--0;
+	Pour i -->1 à 20 à pas de 1 faire
+	Si tab[i]= nom alors
+	touve<--1
+	Finsi
+	FinPour
+	Si trouve>=1 alors
+	Afficher "le Nom a été trouvé";
+	Sinon
+	Afficher "le nom n'a pas été retrouvé";
+Fin

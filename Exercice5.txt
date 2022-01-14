@@ -1,0 +1,16 @@
+Algorithme message;
+Var
+	Couleur:chaine de caractère;
+Debut
+	Afficher "vueillez entrer une couleur";
+	Saisir couleur;
+	Si couleur= "rouge" alors
+	Afficher " S'arreter ";
+	Sinon si couleur= " Orange " alors
+	Afficher " Ralentir ";
+	Sinon si couleur= " Verte" alors
+	Afficher " passer";
+	Sinon
+	Afficher "Incorrecte";
+	Finsi
+Fin

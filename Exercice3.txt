@@ -1,0 +1,12 @@
+Algorithme plus_grand_nombre;
+Var
+	A,B:réels;
+Debut
+	Afficher " Entrez deux nombres";
+	Saisir A,B
+	Si A>B alors
+	Afficher A," est le plus grand";
+	Sinon
+	Afficher B," est le plus grand";
+	Finsi
+Fin

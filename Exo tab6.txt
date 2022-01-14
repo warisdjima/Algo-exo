@@ -1,0 +1,16 @@
+Algorithme occurence;
+Var
+	noms(1;50):tableau de chaine de caractère;
+	nom: chaine de caractère;
+	i,occurence:entiers;
+Debut
+	Afficher " vueillez entrer un nom";
+	Saisir nom;
+	occurence<--0;
+	Pour i -->1 à 50 à pas de 1 faire
+	Si noms[i]=nom alors
+	occurence<--occurence+1;
+	Finsi
+	FinPour
+	Afficher "le nombre a été retrouvé",occurence,"fois";
+Fin

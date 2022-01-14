@@ -1,0 +1,21 @@
+Algorithme remplir_dableau;
+Var
+  	tab(1:8):tableau de type entier;
+ 	i,valeur : entiers; 
+Debut
+	Pour i--> 1 à 8 à pas 1 faire:
+	Afficher "veuillez saisie le contenu de la cas",i;
+	Saisir valeurs;
+	Tab[i]<-- valeur;
+        Fin pour
+Fin
+  
+
+
+
+
+
+
+
+
+

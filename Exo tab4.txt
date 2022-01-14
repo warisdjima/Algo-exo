@@ -1,0 +1,13 @@
+Algorithme minimum;
+Var
+	tab(1;10):tableau de type réels;
+	min:réels;
+	i:entier;
+Debut
+	i<--1;
+	min<--tab[i];
+	Pour i--> 1 à 10 à pasde 1 faire
+	Si tab[i]<min alors
+	min<--tab[i];
+	Finsi
+Fin

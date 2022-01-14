@@ -1,0 +1,27 @@
+Algrithme reponse;
+var 
+	reponse:chaine de caractère;
+Debut
+	Afficher"aimez vous l'informatique?";
+	Saisir reponse;
+	Tant que reponse <> "Oui" et reponse <> "Non" faire
+	Afficher "les reponses possibles sont oui et non;
+	Afficher "Aimez vous l'informatique?";
+	Saisir reponse;
+	Fintantque
+Fin 					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

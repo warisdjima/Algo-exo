@@ -1,0 +1,18 @@
+Algorithme tri;
+Var
+	tab(1 :5) : tableau de type entiers ;
+	min, i, permute, j, position : entiers ;
+Debut
+	Pour i-->1 à 5 à pas de 1 faire 
+	min<--tab [i] ; position <--i ;
+	Pour j-->i à 5 faire
+	Si tab[j]< min alors
+	min<-- tab [j] ;
+	position<--j ;
+	Finsi
+	Finpour
+	permute	<--tab[i] ;
+	tab[i]<--min ;
+	tab[position]<--permute ;
+	Finpour
+Fin

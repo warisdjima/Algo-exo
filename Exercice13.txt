@@ -1,0 +1,12 @@
+Algorithme question;
+var
+        reponse:chaine de caractère;
+Debut
+         Repeter
+	Afficher "Aimez-vous l'informatique"?;
+        Saisir reponse;
+	Si reponse <> "Oui" et reponse <> "Non" alors
+	Afficher "les reponses possibles sont oui et non;
+	Fin si
+	Jusqu'a reponse ="oui" ou reponse = "non";
+Fin

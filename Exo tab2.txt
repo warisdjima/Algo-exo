@@ -1,0 +1,10 @@
+
+Algorithme Parcours;
+Var
+	Note(1:10):tableau de type réel;
+	i:entiers;
+Debut 
+	Pour i--> 1 à 10 à pas de 1 faire:
+	Afficher "le contenu de la case "i" est",Note[i];
+	Fin pour
+fin

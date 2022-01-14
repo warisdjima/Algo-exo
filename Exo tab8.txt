@@ -1,0 +1,9 @@
+Algorithme somme;
+Var
+	tab1(1;5),tab2(1;5),tab3(1;5):tableau d'entiers;
+	i:entiers;
+Debut
+	Pour i-->1 à 5 à pas de 1 faire:
+	tab3[i]<--tab1[i]+tab2[i]; 
+	FinPour
+Fin

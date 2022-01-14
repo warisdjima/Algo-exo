@@ -1,0 +1,10 @@
+Algorithme somme;
+Var
+	i,somme:entiers;
+Debut
+	somme<--0;
+	Pouri-->1 à 10 pas de faire
+	somme<-- somme+i;
+	FinPour
+	Afficher " La somme est égale à ",somme;
+Fin

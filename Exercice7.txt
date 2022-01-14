@@ -1,0 +1,20 @@
+Algorithme grand_nombre;
+Var
+	a,b,c:réels;
+Debut
+	Afficher"Tapez les nombres a,b et c";
+	Saisir a,b,c;
+	Si a>b alors
+		Si a>c alors
+		Afficher "le plus grand nombre est", a;
+		Sinon
+		Afficher "le plus grand nombre est", c;
+		Finsi
+	Sinon 
+		Si b>c alors
+		Afficher "le plus grand nombre est", b;
+		Sinon
+		Afficher "le plus grand nombre est", c;
+		Finsi
+	Finsi
+Fin

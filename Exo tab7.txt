@@ -1,0 +1,12 @@
+Algorithme suppression
+Var
+	noms(1;10):tableau de chaine de caractère;
+	i,indice:entiers;
+Debut
+	Afficher "Vueillez entrer l'indice de l'élément à supprimer";
+	Saisir indice;
+	Pour i-->indice à 9 faire
+	noms[i]<--noms[i+1];
+	FinPour
+	noms[10]-->"";
+Fin

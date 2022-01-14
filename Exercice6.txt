@@ -1,0 +1,12 @@
+Algorithme resolution_equation;
+Var
+	a,b,x:réels;
+Debut
+	Afficher"Tapez les nombres a et b";
+	Saisir a,b;
+	Si a<>0 alors
+	x:= -b/a;
+	Sinon 
+	Afficher "cette équation n'admet pas de solution";
+	Finsi
+Fin

@@ -1,0 +1,13 @@
+Algorithme suite_nom;
+Var
+	nom,fois: chaine de caractère;
+Debut
+	fois<--0;
+	Repeter
+	Afficher " Entrer un nom";
+	Saisir nom;
+	Afficher nom;
+	fois <-- fois+1;
+	Jusqu'à ce que nom= "ZZZZ";
+	Afficher " Vous avez fait, " fois,"tentative";
+Fin
